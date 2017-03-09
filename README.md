@@ -1,2 +1,2 @@
-# zemanwomble
-Website for Zeman &amp; Womble, aka Brooklyn attorney 
+# mzwlegal
+static site for Zeman & Womble, aka brooklynattorney.
