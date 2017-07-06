@@ -15,3 +15,40 @@
     <button>Send</button>
   </p>
 </form>
+
+<form action="thanks" name="Main Contact Form" id="intakeFormShortAutofill" class="validate-form" netlify>
+                                <fieldset>
+                                    <legend>
+                                        <span>Contact Information</span>
+                                    </legend>
+                                    <label for="intakeFormShortName">Name*</label>
+                                    <div class="formHighlight">
+                                        <input type="text" name="Name" id="intakeFormShortName" title="Name" required />
+                                    </div>
+                                    <label for="intakeFormShortEmail">Email Address*</label>
+                                    <div class="formHighlight">
+                                        <input type="email" name="email" id="intakeFormShortEmail" class="validate email" title="Email Address" required />
+                                    </div>
+                                    <label for="intakeFormShortPhone">Phone</label>
+                                    <div class="formHighlight">
+                                        <input type="text" name="Phone" id="intakeFormShortPhone" title="Phone" class="dataCheck number"/>
+                                    </div>
+                                    <label for="intakeFormShortMessage">Brief description of your legal issue*</label>
+                                    <div class="formHighlight">
+                                        <textarea name="Brief description of your legal issue" id="intakeFormShortMessage" title="Brief description of your legal issue" rows="4" cols="15" required ></textarea>
+                                    </div>
+                                    <div class="formCheck">
+                                        <label for="intakeFormShortAutofillDisclaimerCheck">
+                                            <input type="checkbox" name="Please verify that you have read the disclaimer." id="intakeFormShortAutofillDisclaimerCheck" class="validate checkbox" value="yes"  required/>
+                                            I have read the <a href="/Disclaimer.html">disclaimer</a>*
+                                        </label>
+                                    </div>
+                                    <div id="intakeFormShortDisclaimer">
+                                        <div>
+                                            <p>The use of the Internet or this form for communication with the firm or any individual member of the firm does not establish an attorney-client relationship. Confidential or time-sensitive information should not be sent through this form.</p>
+                                            <a href="#intakeFormShortAutofillDisclaimerCheck" rel="nofollow">close</a>
+                                        </div>
+                                    </div>
+                                </fieldset>
+                                <input type="image" src="../design/images/formSubmitShort.gif" name="Submit" value="Submit" class="submit over" alt="Submit" id="intakeFormShortAutofillSubmit"/>
+                            </form>
