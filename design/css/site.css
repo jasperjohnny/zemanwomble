@@ -336,7 +336,7 @@ a.consultation-btn{width:22.69939%;float:right;margin-left:0;margin-right:0;clea
 .title-short-form{font-family:"Domine",serif;font-size:28px;font-weight:400;color:#000;text-align:center;margin:0;padding:0 0 12px}
 #containerIntakeFormShort,#containerIntakeFormShortAutofill{font-family:"Domine",serif;font-size:16px;font-weight:400;color:#3e3e3d}
 #containerIntakeFormShort>p,#containerIntakeFormShortAutofill>p{display:none}
-#intakeFormShort fieldset textarea,#intakeFormShort fieldset input,#intakeFormShortAutofill fieldset textarea,#intakeFormShortAutofill fieldset input{font-family:"Domine",serif;font-size:16px;width:100%;margin:8px 0 13.5px 0;padding:17px 11px;color:#3e3e3d}
+#intakeFormShort fieldset textarea,#intakeFormShort fieldset input,#intakeFormShortAutofill fieldset textarea,#intakeFormShortAutofill fieldset input{font-family:"Domine",serif;font-size:16px;width:100%;margin:8px 0 13.5px 0;padding:5px;color:#3e3e3d}
 #intakeFormShort fieldset textarea,#intakeFormShortAutofill fieldset textarea{height:139px}
 #intakeFormShort fieldset div.formHighlight *,#intakeFormShortAutofill fieldset div.formHighlight *{border:1px solid #f4f4f4}
 #intakeFormShort fieldset div.formHighlight *:hover,#intakeFormShort fieldset div.formHighlight *:focus,#intakeFormShort fieldset div.formHighlight *.current,#intakeFormShortAutofill fieldset div.formHighlight *:hover,#intakeFormShortAutofill fieldset div.formHighlight *:focus,#intakeFormShortAutofill fieldset div.formHighlight *.current{background:#fff;border:1px solid #e2e2e2}
