@@ -41,6 +41,10 @@
 #intakeFormI fieldset label input{display:inline;width:2em;margin:0}
 #intakeFormI fieldset textarea{clear:left;display:block;width:25em;height:10em;padding:2px;margin:.2em 0 0 0}
 
+input#intakeFormShortAutofillSubmit {
+    max-width: 300px;
+}
+
 #intakeFormI fieldset p{margin:.5em 0}
 #intakeFormI fieldset div.formCheck{margin:.5em 0}
 #intakeFormI fieldset .formCheck input{background:none}

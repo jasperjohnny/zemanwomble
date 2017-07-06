@@ -261,53 +261,28 @@ function BuildPath(path){
                     <div class="short-form">
                         <h4 class="title-short-form">Contact for a FREE consultation</h4>
                         <div id="containerIntakeFormShortAutofill" >
-    <p>
-        <strong>Bold</strong> labels are required.
-    </p>
-    <form method="post" action="https://formspree.io/jklingler@protonmail.com" id="intakeFormShortAutofill" class="formAutoFill validate-form">
-        <fieldset>
-            <legend>
-                <span>Contact Information</span>
-            </legend>
-            <label for="intakeFormShortName">Name</label>
-            <div class="formHighlight">
-                <input type="text" name="Name" id="intakeFormShortName" title="Name" required />
-            </div>
-            <label for="intakeFormShortEmail">Email Address</label>
-            <div class="formHighlight">
-                <input type="email" name="email" id="intakeFormShortEmail" class="validate email" title="Email Address" required />
-            </div>
-            <label for="intakeFormShortPhone">Phone</label>
-            <div class="formHighlight">
-                <input type="text" name="Phone" id="intakeFormShortPhone" title="Phone" class="dataCheck number"/>
-            </div>
-            <label for="intakeFormShortMessage">Brief description of your legal issue</label>
-            <div class="formHighlight">
-                <textarea name="Brief description of your legal issue" id="intakeFormShortMessage" title="Brief description of your legal issue" rows="4" cols="15"></textarea>
-            </div>
-            <div class="formCheck">
-                <label for="intakeFormShortAutofillDisclaimerCheck">
-                    <input type="checkbox" name="Please verify that you have read the disclaimer." id="intakeFormShortAutofillDisclaimerCheck" class="validate checkbox" value="yes"  required/>
-                    <strong>I have read the <span>disclaimer.</span>  </strong>
-                </label>
-                <strong>
-                    <a class="intakeFormShortDisclaimerLink" href="Disclaimer.html">disclaimer</a>.
-                </strong>
-            </div>
-            <div id="intakeFormShortDisclaimer">
-                <div>
-                    <p>The use of the Internet or this form for communication with the firm or any individual member of the firm does not establish an attorney-client relationship. Confidential or time-sensitive information should not be sent through this form.</p>
-                    <a href="#intakeFormShortAutofillDisclaimerCheck" rel="nofollow">close</a>
-                </div>
-            </div>
-        </fieldset>
-        <p class="intakeFormShortPrivacy">
-            <a href="Privacy-Policy.html">Privacy Policy</a>
-        </p>
-        <input type="image" src="design/images/formSubmitShort.gif" name="Submit" value="Submit" class="submit over" alt="Submit" id="intakeFormShortAutofillSubmit"/>
-        <input type="submit" name="Submit" value="Submit" class="submit over" style="display:none;" alt="Submit" id="submitbtn_intakeFormShortAutofillSubmit"/>
-        <input type="hidden" name="_next" value="/thanks.html" />
-    </form>
+                        <form name="Website Contact Form" action="/thanks" id="intakeFormShort" netlify>
+                            <fieldset>
+                                <p><label>Name*</label>
+                                <input type="text" name="Name" required /></p>
+                                
+                                <p><label>Email Address*</label>
+                                <input type="email" name="email" required /></p>
+
+                                <p><label>Phone</label>
+                                <input type="text" name="Phone" /></p>
+
+                                <p><label for="intakeFormShortMessage">Brief description of your legal issue*</label>
+                                <textarea name="Brief description of your legal issue" title="Brief description of your legal issue" rows="4" cols="15" required ></textarea></p>
+
+                                <p><label><input type="checkbox" name="disclaimer" value="accept" required /> I have read the <a href="/Disclaimer.html">disclaimer</a>*</label></p>
+
+                                <input type="image" src="/design/images/formSubmitShort.gif" name="Submit" value="Submit" class="submit over" alt="Submit" id="intakeFormShortAutofillSubmit"/>
+
+                                <br /><small><em>*Required field | <a href="/Privacy-Policy.html">Privacy Policy</a></em></small>
+
+                            </fieldset>
+                        </form>
 </div>
                     </div>
                 </div>
