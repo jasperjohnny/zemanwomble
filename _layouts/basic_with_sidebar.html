@@ -1,0 +1,21 @@
+{% include header.html %}
+
+{% include thin-clouds.html %}
+ 
+    <div class="container-page">
+        <div class="container-columns">
+            <div class="container-column-main">
+                <div class="column-main" role="main">
+    				{{ content }}
+                </div>
+            </div>
+            <div class="column-side" role="complementary"> 
+                {% include sidebar-links.html %}
+    		</div>
+        </div>
+    </div>
+
+{% include thick-contact.html %}    
+
+{% include footer.html %}
+
