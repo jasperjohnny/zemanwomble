@@ -8,8 +8,9 @@
 		<meta http-equiv="content-language" content="en-US" />
 	    <meta name="viewport" content="width=device-width" />
 	    <link rel="dns-prefetch" href="http://ajax.googleapis.com/" />
+        {% capture styles %}{% include core.scss %}{% endcapture %}
         <style>
-            {% include core.css %}
+            {{ styles | scssify }}
         </style>
 	    <!-- <link rel="stylesheet" href="/assets/css/core.css" /> -->
 	    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png" />
