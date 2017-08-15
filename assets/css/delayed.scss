@@ -499,95 +499,6 @@ a.read-news {
 .phone-nos {
   font-weight: 700; }
 
-.short-form {
-  *zoom: expression(this.runtimeStyle.zoom="1", this.appendChild(document.createElement("br")).style.cssText="clear:both;font:0/0 serif");
-  *zoom: 1;
-  padding: 22px 25px 36px;
-  background: #edeef0; }
-
-.short-form:before, .short-form:after {
-  content: ".";
-  display: block;
-  height: 0;
-  overflow: hidden; }
-
-.short-form:after {
-  clear: both; }
-
-@media (max-width: 650px) {
-  /*.short-form{display:none}*/ }
-.Home .short-form {
-  margin-top: 47px;
-  padding: 22px 0 36px; }
-
-@media (max-width: 978px) {
-  .Home .short-form {
-    padding: 22px 0 36px 10px; } }
-
-.title-short-form {
-  font-family: "Domine",serif;
-  font-size: 28px;
-  font-weight: 400;
-  color: #000;
-  text-align: center;
-  margin: 0;
-  padding: 0 0 12px; }
-
-#containerIntakeFormShortAutofill, #containerIntakeFormShortAutofill * {
-  margin: 0;
-  padding: 0; }
-
-#containerIntakeFormShortAutofill {
-  font-size: .91em;
-  font-family: Verdana, Geneva, sans-serif; }
-
-#containerIntakeFormShortAutofill {
-  font-family: "Domine",serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #3e3e3d; }
-
-#containerIntakeFormShortAutofill p {
-  padding: 0 0 .5em 0; }
-
-#containerIntakeFormShortAutofill > p {
-  display: none; }
-
-#containerIntakeFormShort, #containerIntakeFormShortAutofill {
-  font-family: "Domine",serif;
-  font-size: 16px;
-  font-weight: 400;
-  color: #3e3e3d; }
-
-#containerIntakeFormShort > p, #containerIntakeFormShortAutofill > p {
-  display: none; }
-
-#intakeFormShort fieldset, #intakeFormShortAutofill fieldset {
-  border: none; }
-
-#intakeFormShort fieldset textarea, #intakeFormShort fieldset input, #intakeFormShortAutofill fieldset textarea, #intakeFormShortAutofill fieldset input {
-  font-family: "Domine",serif;
-  font-size: 16px;
-  width: 100%;
-  margin: 8px 0 13.5px 0;
-  padding: 5px;
-  color: #3e3e3d; }
-
-#intakeFormShort fieldset textarea, #intakeFormShortAutofill fieldset textarea {
-  height: 139px; }
-
-#intakeFormShort fieldset label input, #intakeFormShortAutofill fieldset label input {
-  display: inline;
-  width: 20px;
-  margin: 0 0 0 -3px;
-  padding: 0; }
-
-.Home #intakeFormShortAutofillSubmit {
-  display: table;
-  margin: 20px auto 0; }
-
-input#intakeFormShortAutofillSubmit {
-  max-width: 300px; }
 
 .footer-page {
   font-family: "Domine",serif;
@@ -639,7 +550,11 @@ a.back-to-top {
     width: auto;
     float: none;
     margin: 20px auto; } }
+
 a.back-to-top img {
   display: block;
   max-width: 100%; }
+
+.contact-wrap {
+  background: #edeef0; }
 
