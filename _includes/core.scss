@@ -629,7 +629,8 @@ a.consultation-btn:hover, a.consultation-btn:focus, a.consultation-btn.current {
   width: 100%;
   margin: 8px 0 13.5px 0;
   padding: 5px;
-  color: #3e3e3d; }
+  color: #3e3e3d;
+  display: block; }
 
 #intakeFormShort fieldset textarea, #intakeFormShortAutofill fieldset textarea {
   height: 139px; }
@@ -673,3 +674,39 @@ input#intakeFormShortAutofillSubmit {
 
 .content:after {
   clear: both; }
+
+
+.nav-silo {
+  background: #010f14;
+  padding: 16px 30px 35px;
+  outline: 1px solid #363e42;
+  outline-offset: -5px;
+  margin-bottom: 66px; }
+
+@media (max-width: 650px) {
+  .nav-silo {
+    margin-bottom: 0; } }
+
+.nav-silo ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.nav-silo ul li {
+  margin: 19px 0; }
+
+.nav-silo ul li a {
+  display: block;
+  font-family: "Domine",serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #09bcff;
+  text-decoration: none; }
+
+.nav-silo ul li a:hover, .nav-silo ul li a:focus, .nav-silo ul li a.current {
+  color: #fff; }
+
+#attorneyProfile img.attorneyProfilePhoto {
+    float: right;
+    margin: 0 0 10px 15px;
+}
