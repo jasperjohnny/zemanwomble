@@ -1,20 +1,33 @@
 ---
-layout: basic
 title: "Contact | Zeman & Womble, LLP | Brooklyn, NY"
 description: "Turn to Zeman & Womble, LLP, for the help you need against criminal charges and civil rights violations. Call 718-514-9100."
 ---
 
-<h1 class="page-title">
-    Contact
-</h1>
-<article class="content" id="content">
-    <div class="content-0">
-        <p>While this website provides general information, it does not constitute legal advice. The best way to get guidance on your specific legal issue is to contact a lawyer. To schedule a meeting with an attorney, please call or complete the form below.</p>
-        <div class="short-form">
-            <h4 class="title-short-form">Contact us for a FREE consultation</h4>
-            <div id="containerIntakeFormShortAutofill" >
-                {% include contact-form.html %}
+{% include header.html %}
+
+    <div class="container-page">
+        <div class="container-columns">
+            <div class="container-column-main">
+                <div class="single-column" role="main">
+
+                    <h1 class="page-title">
+                        Contact
+                    </h1>
+                    <article class="content" id="content">
+                        <div class="content-0">
+                            <p>To schedule a free consultation, please complete the form below.</p>
+                            <div class="short-form no-leadin">
+                                <h4 class="title-short-form">Contact us for a FREE consultation</h4>
+                                <div id="containerIntakeFormShortAutofill" >
+                                    {% include contact-form.html %}
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
             </div>
         </div>
     </div>
-</article>
+
+{% include footer.html %}
