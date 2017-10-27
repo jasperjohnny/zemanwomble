@@ -103,8 +103,13 @@ td img {
     margin: 20px auto;
     padding: 0 10px;
     float: none; } }
+
 .brand-image {
-  width: 280px; }
+  width: 280px; 
+  @media (min-width: 750px) and (max-width: 840px) {
+    width: 240px; 
+  }
+}
 
 //-----------Navigation-------------
 
@@ -157,6 +162,11 @@ td img {
     clear: both; 
   }
 
+  @media (max-width: 930px) {
+    padding: 15px 0 0;
+    float: none; 
+  }
+
   @media (max-width: 750px) {
     padding: 15px 0;
     float: none; 
@@ -207,7 +217,13 @@ td img {
         font-size: .9em;
         letter-spacing: .05rem;
       }
-    
+      
+      &.last-desktop {
+        @media (max-width: 930px) {
+          margin-right: 0px; 
+        }        
+      }
+
       @media (max-width: 840px) {
         margin-right: 10px; 
       }
@@ -231,7 +247,7 @@ td img {
         }
 
         @media (max-width: 840px) {
-          font-size: 11px;
+          font-size: 14px;
         }
         @media (max-width: 750px) {
           background: #f0f0f0;
@@ -299,6 +315,50 @@ a.btn-contact {
   text-align: center; }
 
 
+.social {
+  float: right;
+  padding: 24px 0 0; 
+
+  @media (max-width: 930px) {
+    padding: 10px 0 0;
+  }
+
+  @media (max-width: 750px) {
+    display: table;
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+
+    li {
+      float: left;
+      margin-right: 15px; 
+
+      a {
+        display: block; 
+      }
+    }
+  }
+}
+
+
+
+
+
+.social ul li a img {
+  max-width: 100%; }
+
+.social ul li.item-last {
+  margin-right: 0; }
+
+
+
+
 //-------------Utility--------------
 
 @media (min-width: 750px) {
@@ -329,33 +389,7 @@ a.btn-contact img {
 @media (max-width: 750px) {
   a.btn-contact {
     display: block; } }
-.social {
-  float: right;
-  padding: 24px 0 0; }
 
-@media (max-width: 750px) {
-  .social {
-    display: table;
-    float: none;
-    margin: 0 auto;
-    padding: 0; } }
-.social ul {
-  margin: 0;
-  padding: 0;
-  list-style: none; }
-
-.social ul li {
-  float: left;
-  margin-right: 15px; }
-
-.social ul li a {
-  display: block; }
-
-.social ul li a img {
-  max-width: 100%; }
-
-.social ul li.item-last {
-  margin-right: 0; }
 
 .cta {
   width: 65.64417%;
