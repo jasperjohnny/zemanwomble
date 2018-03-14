@@ -1,2 +1,2 @@
-# mzwlegal
-static site for Zeman & Womble, aka brooklynattorney.
+# Zeman Womble, LLC 
+https://www.zemanwomblelaw.com/
